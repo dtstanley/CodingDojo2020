@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disappearing Ninja Solution</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="DisappearingNinja.css">
+    <script>
+        var htmlString = "";
+        for (var i = 0; i < 8; i++) {
+            htmlString += '<img src="brokenWedRing.jpg"  alt="broke0">'
+        }
+        htmlString += '<button>Restore</button>'
+        $(document).ready(function() {
+            $("#wrapper").append(htmlString)
+
+            $("img").click(function() {
+                $(this).hide("slow");
+            })
+
+            $("button").click(function() {
+                $("img").show();
+            })
+        })
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="DisappearingNinja.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+
+
+
+    </div>
+
+</body>
+
+</html>

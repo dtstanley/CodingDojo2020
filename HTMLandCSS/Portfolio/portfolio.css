@@ -1,0 +1,157 @@
+#container {
+    width: 970px;
+    min-height: 1020px;
+    background-color: rgb(241, 241, 232);
+    margin: 0 auto;
+}
+
+.header {
+    width: 900px;
+    min-height: 50px;
+    background-color: rgb(241, 241, 232);
+    margin: 0 auto;
+}
+
+.header>h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    display: inline-block;
+}
+
+.header>h3 {
+    margin-left: 470px;
+    display: inline-block;
+    justify-content: right;
+}
+
+.main {
+    background-color: rgb(48, 36, 56);
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.image {
+    padding-top: 10px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.about-section {
+    width: 450px;
+    height: 250px;
+    /* margin-top: 35px; */
+    margin-left: 25px;
+    padding: 0px 3px 27px 0px;
+    background-color: white;
+    vertical-align: 25px;
+    display: inline-block;
+}
+
+.five-section>h4,
+.family-section>h4,
+.laMode-section>h4,
+.about-section>h4,
+.five-section>h2,
+.family-section>h2,
+.laMode-section>h2,
+.about-section>h2 {
+    color: white;
+    padding: 10px 0px 10px 10px;
+    margin: 0;
+    background-image: linear-gradient(rgb(196, 196, 196), grey, rgb(196, 196, 196));
+}
+
+.about-section>p,
+.about-section>a {
+    padding-left: 10px;
+    color: black;
+}
+
+.top-main-section {
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.bottom-main-section {
+    width: 900px;
+    min-height: 400px;
+    margin: 0 auto;
+}
+
+.laMode-section {
+    width: 280px;
+    min-height: 450px;
+    padding: 0px;
+    margin: 5px 0px 5px 0px;
+    display: inline-block;
+    background-color: white;
+}
+
+.family-section {
+    width: 280px;
+    min-height: 450px;
+    padding: 0px;
+    margin: 5px 25px;
+    display: inline-block;
+    background-color: white;
+}
+
+.five-section {
+    width: 280px;
+    min-height: 450px;
+    padding: 0px;
+    margin: 5px 0px;
+    display: inline-block;
+    outline: 2px dotted black;
+    background-color: white;
+}
+
+.five-section>p,
+.family-section>p,
+.laMode-section>p {
+    padding: 4px 10px;
+    margin: 0;
+}
+
+img {
+    margin: 5px;
+}
+
+.button {
+    display: block;
+    padding: 10px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #328636;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px rgb(160, 160, 160);
+}
+
+.footer {
+    width: 900px;
+    background-color: rgb(241, 241, 232);
+    margin: 0 auto;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+.footer>span {
+    display: inline-block;
+}
+
+.footer>span>p {
+    margin: 10px;
+}
+
+.footer>p {
+    margin: 0;
+}

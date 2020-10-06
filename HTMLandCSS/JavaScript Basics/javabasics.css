@@ -1,0 +1,99 @@
+#container {
+    width: 970px;
+    min-height: 300px;
+    margin: 0px auto;
+    padding: 2px;
+    background-color: rgb(4 33 68 / 86%);
+}
+
+.header {
+    margin: 5px 10px 5px 5px;
+    background-color: red;
+    padding: 15px;
+    color: white;
+    border-radius: 13px;
+}
+
+.header>h1 {
+    margin: 0;
+}
+
+.body {
+    margin: 2px;
+    ;
+}
+
+.footer {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    margin: 5px 10px 4px 5px;
+}
+
+.footer>p {
+    margin: 0%;
+}
+
+.nav {
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 15px;
+    background-color: rgb(11, 139, 156);
+    display: inline-block;
+    color: rgba(101, 159, 179, 0.973);
+    vertical-align: top;
+    padding: 10px;
+    font-size: small;
+}
+
+.nav>p {
+    margin: 0px;
+}
+
+.main {
+    width: 742px;
+    height: 500px;
+    margin: 10px 8px 10px 11px;
+    padding: 1px 12px 25px 12px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+}
+
+.main>li {
+    /* Note: Code to create bullet list with sentence aligned consistently */
+    text-indent: 20px;
+    list-style-position: inside;
+    text-indent: -23px;
+    padding-left: 25px;
+}
+
+.menu {
+    color: deepskyblue;
+    margin: 0px;
+    padding-left: 14px;
+}
+
+.menu>ul {
+    padding-left: 16px;
+}
+
+.footer>p>a,
+.nav>p>a,
+.nav>ul>li>a,
+.main>li>a,
+.menu>ul>li>a {
+    color: deepskyblue;
+}
+
+p,
+li {
+    font-family: "Times New Roman", arial, verdana, sans-serif;
+}
+
+em {
+    color: rgb(103, 135, 241);
+}
